@@ -1,6 +1,14 @@
 # Compiled class file
 *.class
 
+#过滤文件夹target,.idea
+/target
+/.idea
+/out
+/genterator
+*.iml
+/log
+
 # Log file
 *.log
 

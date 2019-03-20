@@ -1,4 +1,4 @@
-package com.strong.common;
+package com.strong.concurrent;
 
 /**
  * @Author: QiaoYaJun

@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ee43d4-98d1-412f-a681-61dbeb381c90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strong-design/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strong-api/strong-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strong-review/strong-review.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocalTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/strong-api/target/" />
     <ignored path="$PROJECT_DIR$/reborn-api/target/" />
     <ignored path="$PROJECT_DIR$/strong-review/target/" />
+    <ignored path="$PROJECT_DIR$/strong-design/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,65 +36,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="528">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/ThreadLocal.java">
+      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3102">
-              <caret line="169" column="23" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
+            <state relative-caret-position="349">
+              <caret line="406" column="23" lean-forward="true" selection-start-line="406" selection-start-column="23" selection-end-line="406" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractStringBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/AbstractStringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="247" column="23" lean-forward="true" selection-start-line="247" selection-start-column="23" selection-end-line="247" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="781" column="25" selection-start-line="781" selection-start-column="25" selection-end-line="781" selection-end-column="25" />
               <folding>
-                <element signature="e#4309#4310#0" expanded="true" />
-                <element signature="e#4336#4337#0" expanded="true" />
-                <element signature="e#7765#7766#0" expanded="true" />
-                <element signature="e#7802#7803#0" expanded="true" />
-                <element signature="e#8068#8069#0" expanded="true" />
-                <element signature="e#8137#8138#0" expanded="true" />
-                <element signature="docComment;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;field#value#0;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#Entry#0;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;field#INITIAL_CAPACITY#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;field#table#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;field#size#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;field#threshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#setThreshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#nextIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#prevIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#ThreadLocalMap#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#ThreadLocalMap#1;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#ThreadLocalMap#1;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#getEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#getEntryAfterMiss#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#getEntryAfterMiss#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#set#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#set#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="e#15456#15514#0" />
-                <element signature="docComment;method#remove#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#remove#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#replaceStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#replaceStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="e#17888#17945#0" />
-                <element signature="e#18418#18480#0" />
-                <element signature="e#18703#18745#0" />
-                <element signature="e#19496#19550#0" />
-                <element signature="docComment;method#expungeStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#expungeStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="e#21511#21562#0" />
-                <element signature="docComment;method#cleanSomeSlots#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#cleanSomeSlots#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#rehash#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#rehash#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#resize#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#resize#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="docComment;method#expungeStaleEntries#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-                <element signature="method#expungeStaleEntries#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="e#32532#32533#0" expanded="true" />
+                <element signature="e#32566#32567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20790">
+              <caret line="992" column="22" selection-start-line="992" selection-start-column="22" selection-end-line="992" selection-end-column="22" />
+              <folding>
+                <element signature="e#40917#40918#0" expanded="true" />
+                <element signature="e#40958#40959#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runtime.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Runtime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+              <folding>
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLException.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/sql/SQLException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1782">
+              <caret line="106" column="7" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42592">
+              <caret line="2007" column="32" selection-start-line="2007" selection-start-column="32" selection-end-line="2007" selection-end-column="32" />
+              <folding>
+                <element signature="e#24298#24299#0" expanded="true" />
+                <element signature="e#24363#24364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,28 +140,7 @@
         <entry file="file://$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocalTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3432">
-              <caret line="181" column="43" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -142,6 +160,9 @@
       <find>append</find>
       <find>ThreadLocalMap</find>
       <find>threadLocals</find>
+      <find>put</find>
+      <find>threshold</find>
+      <find>value</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,10 +179,10 @@
         <option value="$PROJECT_DIR$/strong-api/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/strong-review/pom.xml" />
-        <option value="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java" />
         <option value="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocal.java" />
-        <option value="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocalTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocalTest.java" />
+        <option value="$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java" />
       </list>
     </option>
   </component>
@@ -204,7 +225,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="2580" />
@@ -216,9 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,6 +247,11 @@
             <path>
               <item name="strong" type="b2602c69:ProjectViewProjectNode" />
               <item name="strong" type="462c0819:PsiDirectoryNode" />
+              <item name="strong-design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strong" type="462c0819:PsiDirectoryNode" />
               <item name="strong-review" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,15 +265,127 @@
               <item name="strong" type="462c0819:PsiDirectoryNode" />
               <item name="strong-review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strong" type="462c0819:PsiDirectoryNode" />
+              <item name="strong-review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strong" type="462c0819:PsiDirectoryNode" />
+              <item name="strong-review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strong" type="462c0819:PsiDirectoryNode" />
+              <item name="strong-review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="strong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strong" type="462c0819:PsiDirectoryNode" />
+              <item name="strong-review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="strong" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="ch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="App&#9;FILE&#9;file://H:/学习资料/鼓泡/代码/strong/strong-review/src/main/java/com/strong/common/App.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -394,14 +529,19 @@
       <workItem from="1552743811135" duration="1654000" />
       <workItem from="1552801084828" duration="1529000" />
       <workItem from="1552803275083" duration="766000" />
+      <workItem from="1552840328636" duration="16000" />
+      <workItem from="1552843578205" duration="1600000" />
+      <workItem from="1552908038597" duration="6080000" />
+      <workItem from="1553006285170" duration="2676000" />
+      <workItem from="1553099465699" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11426000" />
+    <option name="totallyTimeSpent" value="23378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -424,20 +564,20 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.24534161" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.18213573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.18812375" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Bean Validation" order="4" sideWeight="0.49939975" weight="0.32984033" />
       <window_info id="Web" order="3" sideWeight="0.5010352" side_tool="true" weight="0.17864272" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5010352" side_tool="true" weight="0.17864272" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.084974095" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32919255" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5006002" side_tool="true" weight="0.32984033" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5006002" side_tool="true" weight="0.32984033" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,55 +592,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3718">
-          <caret line="169" column="34" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3586">
@@ -523,12 +614,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/reborn-api/pom.xml" />
     <entry file="file://$PROJECT_DIR$/reborn-api/src/main/java/com/strong/StrongWebapiApplication.java" />
@@ -560,38 +651,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/strong-api/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="1173" column="11" selection-start-line="1173" selection-start-column="11" selection-end-line="1173" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
-        </state>
-      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/strong-review/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/strong-api/src/main/java/com/strong/StrongWebapiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,13 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1628">
           <caret line="97" column="34" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6226">
-          <caret line="283" column="12" selection-start-line="283" selection-start-column="8" selection-end-line="283" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -716,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.strong.common.App">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -754,20 +809,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strong-design/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3432">
-          <caret line="181" column="43" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="43" />
+        <state relative-caret-position="20020">
+          <caret line="971" column="27" selection-start-line="971" selection-start-column="27" selection-end-line="971" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3102">
-          <caret line="169" column="23" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
+        <state relative-caret-position="3828">
+          <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
           <folding>
             <element signature="e#4309#4310#0" expanded="true" />
             <element signature="e#4336#4337#0" expanded="true" />
@@ -817,17 +900,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocalTest.java">
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="42592">
+          <caret line="2007" column="32" selection-start-line="2007" selection-start-column="32" selection-end-line="2007" selection-end-column="32" />
+          <folding>
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/TheadLocalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="286">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/sql/SQLException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="106" column="7" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20790">
+          <caret line="992" column="22" selection-start-line="992" selection-start-column="22" selection-end-line="992" selection-end-column="22" />
+          <folding>
+            <element signature="e#40917#40918#0" expanded="true" />
+            <element signature="e#40958#40959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="781" column="25" selection-start-line="781" selection-start-column="25" selection-end-line="781" selection-end-column="25" />
+          <folding>
+            <element signature="e#32532#32533#0" expanded="true" />
+            <element signature="e#32566#32567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="406" column="23" lean-forward="true" selection-start-line="406" selection-start-column="23" selection-end-line="406" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="247" column="23" lean-forward="true" selection-start-line="247" selection-start-column="23" selection-end-line="247" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strong-review/src/main/java/com/strong/common/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

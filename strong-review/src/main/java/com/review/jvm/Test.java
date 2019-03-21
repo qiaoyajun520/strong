@@ -1,4 +1,4 @@
-package com.strong.jvm;
+package com.review.jvm;
 
 
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,4 @@
-package com.strong.concurrent;
+package com.review.concurrent;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

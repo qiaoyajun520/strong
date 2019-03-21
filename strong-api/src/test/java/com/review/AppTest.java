@@ -1,4 +1,4 @@
-package com.strong;
+package com.review;
 
 import static org.junit.Assert.assertTrue;
 

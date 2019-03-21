@@ -1,9 +1,14 @@
 # Compiled class file
 *.class
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
 #过滤文件夹target,.idea
 /target
-/.idea
 /out
 /genterator
 *.iml

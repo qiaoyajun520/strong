@@ -1,7 +1,6 @@
-package com.strong.common;
+package com.review.common;
 
 
-import java.sql.SQLException;
 import java.util.HashMap;
 
 /**

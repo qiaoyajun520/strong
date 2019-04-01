@@ -1,5 +1,8 @@
 package com.review.concurrent;
 
+import com.strong.concurrent.TheadLocalTest;
+
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -28,7 +31,7 @@ public class SemaphoreTest {
     public static void main(String[] args) {
         ExecutorService pool =  Executors.newCachedThreadPool();
         final Semaphore semaphore = new Semaphore(3,true);
-
+        final ArrayList<String> strings = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             Runnable runnable = new Runnable() {
                 @Override

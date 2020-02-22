@@ -1,6 +1,5 @@
 package com.review.concurrent;
 
-import com.strong.concurrent.TheadLocalTest;
 
 import java.util.ArrayList;
 import java.util.Random;

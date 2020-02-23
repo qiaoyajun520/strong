@@ -12,6 +12,7 @@
         <module>strong-api</module>
         <module>strong-review</module>
         <module>strong-design</module>
+        <module>strong-homework</module>
     </modules>
 
     <name>strong</name>

@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * @Created 2020-03-12 0:18
  */
 public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> {
-    // 线程池最大限制数
+    // 线程池最大限制数F
     private static final int MAX_WORKER_NUMBERS = 10;
     // 线程池默认的数量
     private static final int DEFAULT_WORKER_NUMBERS = 5;
@@ -48,12 +48,14 @@ public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> 
         }
     }
 
+    @Override
     public void shutdown() {
         for (Worker worker : workers) {
             worker.shutdown();
         }
     }
 
+    @Override
     public void addWorkers(int num) {
         synchronized (jobs) {
 // 限制新增的Worker数量不能超过最大值
@@ -65,6 +67,7 @@ public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> 
         }
     }
 
+    @Override
     public void removeWorker(int num) {
         synchronized (jobs) {
             if (num >= this.workerNum) {
@@ -73,7 +76,7 @@ public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> 
 // 按照给定的数量停止Worker
             int count = 0;
             while (count < num) {
-                Worker worker = workers.get(count)
+                Worker worker = workers.get(count);
                 if (workers.remove(worker)) {
                     worker.shutdown();
                     count++;
@@ -83,6 +86,7 @@ public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> 
         }
     }
 
+    @Override
     public int getJobSize() {
         return jobs.size();
     }
@@ -103,6 +107,7 @@ public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> 
         // 是否工作
         private volatile boolean running = true;
 
+        @Override
         public void run() {
             while (running) {
                 Job job = null;
